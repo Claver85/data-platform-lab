@@ -5,6 +5,7 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 // https://vitepress.dev/reference/site-config
 export default withMermaid(
   defineConfig({
+  base: '/data-platform-lab/',   
   title: "Data Platform Lab",
   description: "AI Native Data Engineering and Platform Engineering Lab",
   themeConfig: {
