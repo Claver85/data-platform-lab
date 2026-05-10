@@ -19,3 +19,6 @@ This platform is built on GCP and follows modern data engineering principles:
 👉 See:
 - [Logical Architecture (L1)](./l1-platform.md)
 - [Physical Implementation (L2)](./l2-gcp.md)
+
+## Architecture Modules
+- [Metadata-Driven Pipeline Orchestrator](./metadata-orchestrator.md)
