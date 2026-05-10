@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as r}from"./chunks/framework.CdKBfXtT.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"architecture/security.md","filePath":"architecture/security.md"}'),c={name:"architecture/security.md"};function a(s,i,o,n,p,u){return t(),r("div")}const m=e(c,[["render",a]]);export{d as __pageData,m as default};
