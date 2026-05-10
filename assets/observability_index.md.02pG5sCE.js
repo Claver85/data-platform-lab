@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.NFlYowzW.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"observability/index.md","filePath":"observability/index.md"}'),r={name:"observability/index.md"};function i(o,n,s,c,d,p){return t(),a("div")}const m=e(r,[["render",i]]);export{l as __pageData,m as default};
