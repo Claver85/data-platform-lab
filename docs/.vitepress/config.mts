@@ -22,7 +22,8 @@ sidebar: [
   {
     text: 'Architecture',
     items: [
-      { text: 'Overview', link: '/architecture/' }
+      { text: 'Overview', link: '/architecture/' }, 
+      { text: 'Metadata Orchestrator', link: '/architecture/metadata-orchestrator' }
     ]
   },
   {
