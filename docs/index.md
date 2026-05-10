@@ -1,35 +1,46 @@
 # Data Platform Lab
 
-Laboratorio personal orientado a:
-
-- Data Engineering
-- Platform Engineering
-- AI Native Development
-- CI/CD
-- Docker
-- Kubernetes
-- Documentation as Code
+AI Native Data Engineering & Platform Engineering Workspace
 
 ---
 
-# Objetivos
-
-- Aprender arquitectura moderna
-- Automatizar workflows
-- Crear documentación viva
-- Diseñar plataformas reproducibles
-- Integrar IA al desarrollo
-
----
-
-# Arquitectura Actual
+## 🧭 Platform Overview
 
 ```mermaid
 flowchart LR
 
-Oracle --> ApacheBeam
-ApacheBeam --> Dataflow
-Dataflow --> CloudStorage
-CloudStorage --> BigQuery
-BigQuery --> Looker
-```
+A[Sources] --> B[Ingestion Layer]
+B --> C[Processing Layer]
+C --> D[Storage Layer]
+D --> E[Analytics Layer]
+E --> F[Consumption]
+
+subgraph Sources
+Oracle[(Oracle DB)]
+Files[(Files / APIs)]
+end
+
+subgraph Processing
+Beam[Apache Beam]
+Dataflow[GCP Dataflow]
+Composer[Airflow / Composer]
+end
+
+subgraph Storage
+GCS[Cloud Storage]
+BQ[BigQuery]
+end
+
+subgraph Consumption
+BI[Looker]
+Dash[Dashboards]
+end
+
+Oracle --> Beam
+Files --> Beam
+Beam --> Dataflow
+Composer --> Dataflow
+Dataflow --> GCS
+GCS --> BQ
+BQ --> BI
+BQ --> Dash

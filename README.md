@@ -9,7 +9,11 @@ Laboratorio personal orientado a:
 - AI Native Development
 - Documentation as Code
 
-## Objetivos
+## 🚀 Live Demo
+
+https://claver85.github.io/data-platform-lab/
+
+## 🎯 Objetivos
 
 - Aprender arquitectura moderna
 - Automatizar workflows
