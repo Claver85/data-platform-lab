@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as r}from"./chunks/framework.CdKBfXtT.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"architecture/l1-platform.md","filePath":"architecture/l1-platform.md"}'),a={name:"architecture/l1-platform.md"};function c(o,s,l,n,p,i){return e(),r("div")}const _=t(a,[["render",c]]);export{f as __pageData,_ as default};
