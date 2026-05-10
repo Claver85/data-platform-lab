@@ -1,0 +1,1 @@
+import{_ as e,o as t,c}from"./chunks/framework.CdKBfXtT.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"architecture/l2-gcp.md","filePath":"architecture/l2-gcp.md"}'),r={name:"architecture/l2-gcp.md"};function a(o,s,n,p,i,l){return t(),c("div")}const m=e(r,[["render",a]]);export{d as __pageData,m as default};

@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as n}from"./chunks/framework.NFlYowzW.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"pipelines/index.md","filePath":"pipelines/index.md"}'),a={name:"pipelines/index.md"};function i(s,r,o,p,c,d){return t(),n("div")}const m=e(a,[["render",i]]);export{l as __pageData,m as default};

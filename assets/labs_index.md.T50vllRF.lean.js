@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a}from"./chunks/framework.NFlYowzW.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"labs/index.md","filePath":"labs/index.md"}'),n={name:"labs/index.md"};function s(r,o,c,d,i,p){return t(),a("div")}const m=e(n,[["render",s]]);export{l as __pageData,m as default};
