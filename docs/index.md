@@ -1,6 +1,6 @@
-# Insurance Data Platform
+# Data Platform Lab
 
-Data Engineering platform for an insurance company built on GCP.
+Data Engineering platform for company built on GCP.
 Handles multi-source ingestion, transformation, and serving of insurance data assets.
 
 ---
