@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t}from"./chunks/framework.DJgG805Z.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"labs/airflow-lab.md","filePath":"labs/airflow-lab.md"}'),r={name:"labs/airflow-lab.md"};function o(s,l,c,n,i,f){return e(),t("div")}const d=a(r,[["render",o]]);export{_ as __pageData,d as default};

@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.DJgG805Z.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"labs/kubernetes-lab.md","filePath":"labs/kubernetes-lab.md"}'),s={name:"labs/kubernetes-lab.md"};function r(n,o,c,l,b,p){return t(),a("div")}const i=e(s,[["render",r]]);export{d as __pageData,i as default};

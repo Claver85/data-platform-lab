@@ -1,1 +1,0 @@
-import{_ as t,o as e,c}from"./chunks/framework.CdKBfXtT.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"cicd/github-actions.md","filePath":"cicd/github-actions.md"}'),a={name:"cicd/github-actions.md"};function i(o,s,n,r,d,p){return e(),c("div")}const f=t(a,[["render",i]]);export{m as __pageData,f as default};

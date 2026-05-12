@@ -1,1 +1,0 @@
-import{_ as a,o as e,c as t}from"./chunks/framework.CdKBfXtT.js";const _=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"labs/beam-lab.md","filePath":"labs/beam-lab.md"}'),s={name:"labs/beam-lab.md"};function r(o,c,n,l,m,b){return e(),t("div")}const d=a(s,[["render",r]]);export{_ as __pageData,d as default};
