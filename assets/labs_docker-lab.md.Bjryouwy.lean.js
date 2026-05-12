@@ -1,0 +1,1 @@
+import{_ as e,o as a,c as t}from"./chunks/framework.CdKBfXtT.js";const i=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"labs/docker-lab.md","filePath":"labs/docker-lab.md"}'),r={name:"labs/docker-lab.md"};function o(c,s,n,d,l,p){return a(),t("div")}const m=e(r,[["render",o]]);export{i as __pageData,m as default};
