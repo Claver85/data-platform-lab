@@ -3,57 +3,56 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 
 
 // https://vitepress.dev/reference/site-config
-export default withMermaid(
+export default withMermaid(  
   defineConfig({
-  base: '/data-platform-lab/',   
-  title: "Data Platform Lab",
-  description: "AI Native Data Engineering and Platform Engineering Lab",
+  title: 'Insurance Data Platform',
+  description: 'Data Engineering platform documentation',
   themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
     nav: [
-  { text: 'Home', link: '/' },
-  { text: 'Architecture', link: '/architecture/' },
-  { text: 'Pipelines', link: '/pipelines/' },
-  { text: 'CI/CD', link: '/cicd/' },
-  { text: 'Observability', link: '/observability/' },
-  { text: 'Labs', link: '/labs/' }
+      { text: 'Home', link: '/' },
+      { text: 'Architecture', link: '/architecture/overview' },
+      { text: 'Data Layers', link: '/layers/overview' },
+      { text: 'Framework', link: '/framework/overview' },
+      { text: 'Operations', link: '/operations/runbook' },
     ],
-sidebar: [
-  {
-    text: 'Architecture',
-    items: [
-      { text: 'Overview', link: '/architecture/' }, 
-      { text: 'Metadata Orchestrator', link: '/architecture/metadata-orchestrator' }
-    ]
+    sidebar: [
+      {
+        text: 'Platform',
+        items: [
+          { text: 'Overview', link: '/' },
+          { text: 'CONTEXT.md (for AI)', link: '/CONTEXT' },
+        ]
+      },
+      {
+        text: 'Architecture',
+        items: [
+          { text: 'L1 / L2 Overview', link: '/architecture/overview' },
+        ]
+      },
+      {
+        text: 'Data Layers',
+        items: [
+          { text: 'Raw → History → Active', link: '/layers/overview' },
+        ]
+      },
+      {
+        text: 'Orchestration Framework',
+        items: [
+          { text: 'Chain / Group Pattern', link: '/framework/overview' },
+          { text: 'Audit Tables (aud_*)', link: '/framework/audit-tables' },
+        ]
+      },
+      {
+        text: 'Operations',
+        items: [
+          { text: 'Runbook', link: '/operations/runbook' },
+        ]
+      },
+    ],
+    socialLinks: [],
   },
-  {
-    text: 'Pipelines',
-    items: [
-      { text: 'Overview', link: '/pipelines/' }
-    ]
-  },
-  {
-    text: 'CI/CD',
-    items: [
-      { text: 'Overview', link: '/cicd/' }
-    ]
-  },
-  {
-    text: 'Observability',
-    items: [
-      { text: 'Overview', link: '/observability/' }
-    ]
-  },
-  {
-    text: 'Labs',
-    items: [
-      { text: 'Overview', link: '/labs/' }
-    ]
+  markdown: {
+    theme: 'github-dark',
   }
-],
-
-    socialLinks: [
-      
-    ]
-  }
-}))
+})
+)
