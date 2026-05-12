@@ -5,7 +5,8 @@ import { withMermaid } from 'vitepress-plugin-mermaid'
 // https://vitepress.dev/reference/site-config
 export default withMermaid(  
   defineConfig({
-  title: 'Insurance Data Platform',
+  base: '/data-platform-lab/',  
+  title: 'Data Platform Lab',
   description: 'Data Engineering platform documentation',
   themeConfig: {
     nav: [
@@ -50,9 +51,6 @@ export default withMermaid(
       },
     ],
     socialLinks: [],
-  },
-  markdown: {
-    theme: 'github-dark',
   }
 })
 )
